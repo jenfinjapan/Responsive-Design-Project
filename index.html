@@ -2,61 +2,86 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Jennifer Fagan | About</title>
+  <title>Jennifer Fagan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Ek+Mukta:400,600%7CLora:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700" rel="stylesheet"> 
 </head>
 <body>
-  <header>
-    <div id="logo">
-      <a href="/index.html" class="hanko"><img src="images/jennifer-chinese.png" alt="Jennifer chinese seal"></a> 
+  <header id="top">
+    <div class="container clearfix">
+      <nav>
+        <div class="name">Jennifer Fagan</div>
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <img src="img/profile-jen.png" alt="Jennifer Fagan">
+      <p>Hi! I'm a front-end developer who loves responsive design and css.  I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
     </div>
-    <div class="name">
-    Jennifer Fagan
-    </div>
-    <nav>
-      <ul class="nav">
-        <li><a href="index.html" class="active">About</a></li>
-        <li><a href="photos.html">Photos</a></li>
-      </ul>
-     </nav>
   </header>
-  <div class="banner">
-    <h2 class="tag">Curious</h2>
-    <h2 class="tag">Collaborative</h2>
-    <h2 class="tag">Courageous</h2> 
-  </div>
+
   <main>
-    <div class="card">
-      <h1>About</h1><div class="line">
-    </div>
-    <div class="flex">
-      <img class="profile-image" src="images/jen-profile-pic.jpg" alt="Jennifer Fagan profile image">
-        <div class="profile-text">
-          <p>I live to travel. I am always restless and looking for the next adventure.</p>
-          <p>My favourite place in the world is Japan. I got stuck there for a few years and I'm very influenced by Japanese culture and design.</p>
-          <p>When I'm not travelling I'm usually hiking, orienteering, biking or out in nature taking photos.</p>
-          <p><a href="photos.html">See some photos here ></a></p>
-        </div>
-      
-      </div>
-    </div>
-    <div class="card">
-      <h1>Work</h1><div class="line"></div>
-      <p>Did I mention that I also have to work sometimes?</p> 
-      <p>I have been working with web content recently but I want to get my hands a bit more dirty with the code and I'm hoping this course will help me out and fill in some of the holes in my knowledge.</p>
+    <div class="container clearfix">
+      <h1 id="portfolio">Portfolio</h1>
+      <ul>
+        <li>
+          <img src="img/portfolio-1.png" alt="Marketing page image">
+          <h2>Marketing Page</h2>
+          <p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+        </li>
+        <li>
+          <img src="img/portfolio-2.png" alt="Search page image">
+          <h2>Search Page</h2>
+          <p>This project searches through a specific database to find information that the user is trying to look up.</p>
+        </li>
+        <li>
+          <img src="img/portfolio-3.png" alt="Travel app image">
+          <h2>Travel App</h2>
+          <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+        </li>
+        <li>
+          <img src="img/portfolio-4.png" alt="Map of Favorite Spots image">
+          <h2>Map of Favorite Spots</h2>
+          <p>This project uses mapping apps to plot points for my favorite spots in the city for a do-it yourself walking tour.</p>
+        </li>
+        <li>
+          <img src="img/portfolio-5.png" alt="Photo Gallery image">
+          <h2>Photo Gallery</h2>
+          <p>This project shows pictures from a recentr trip to the viewer and allows the to easily navigate through photos.</p>
+        </li>
+        <li>
+          <img src="img/portfolio-6.png" alt="Calculator image">
+          <h2>Calculator</h2>
+          <p>Someone can enter in the numbers they want and press the big blue button and get the result.</p>
+        </li>
+      </ul>
     </div>
   </main>
   <footer>
-    <div class="social-container">
-      <ul>
-        <li><a href="http://twitter.com/jenfinjapan" class="social twitter" target="_blank">Twitter</a></li>
-        <li><a href="https://www.linkedin.com/in/jennifer-fagan-495a834b" class="social linkedin" target="_blank">LinkedIn</a></li>
-        <li><a href="http://github.com/jenfinjapan" class="social github" target="_blank">Github</a></li>
-      </ul>
-      <p class="copyright">&#169; Jennifer Fagan 2016</p>
+    <div class="container">
+      <h1 id="contact">Contact</h1>
+      <p class="50">If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+      <div class="contact">
+      <p>Phone: <span><a href="tel:+4796843502">+47 9684 3502</a></span></p>
+      <p>Email: <span><a href="mailto:jennifer.fagan@hotmail.com">jennifer.fagan@hotmail.com</a></span></p></div>
     </div>
   </footer>
+  <div class="bottom-footer">
+    <div class="container  clearfix">
+      <div class="bottom-name">Jennifer Fagan</div>
+      <div class="back"><a href="#top">Back to top</a></div>
+      <div class="bottom-nav">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
